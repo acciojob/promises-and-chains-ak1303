@@ -18,5 +18,7 @@ submitBtn.addEventListener('click',(e)=>{
 		promise.then((data)=>{
 			alert(data)
 		}).catch((data)=>alert(data));
+	}else {
+		alert('Please enter valid details');
 	}
 })
